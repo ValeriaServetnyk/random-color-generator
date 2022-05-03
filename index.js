@@ -1,6 +1,5 @@
 import chalk from 'chalk';
 import randomColor from 'randomcolor';
-import readline from 'readline';
 
 function squareFn(color) {
   const squareArray = [];
