@@ -60,4 +60,3 @@ const color = randomColor({
 });
 
 console.log(chalk.hex(`${color}`).bold(`${squareFn(color)}`));
-console.log(colorLumi);
