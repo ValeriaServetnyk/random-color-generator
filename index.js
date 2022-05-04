@@ -58,4 +58,4 @@ const color = randomColor({
   hue: colorStr,
 });
 
-console.log(chalk.hex(`${color}`).bold(`${squareFn(color)}`));
+console.log(chalk.hex(color).bold(squareFn(color)));
